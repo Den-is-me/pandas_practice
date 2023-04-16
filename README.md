@@ -1,10 +1,10 @@
 # pandas_practice
 Practice with the Python Pandas Data Analysis Library.
 
-This repository stores the exercises and projects I learned in the [stepik course](https://stepik.org/course/74457/info) for learning Pandas 
+This repository stores the exercises and projects that I learned in the [stepik course](https://stepik.org/course/74457/info) for Pandas 
 ___
 
-- For the first lesson we have used [csv file](/first_lesson/lesson_1_data.csv) with with course sales dataь in this structure:
+- For the first lesson we have used [csv file](/first_lesson/lesson_1_data.csv) with with course sales data in this structure:
 
 ``` CSV
 Номер;Дата создания;Дата оплаты;Title;Статус;Заработано;Город;Платежная система
