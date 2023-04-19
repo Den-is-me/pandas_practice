@@ -6,7 +6,7 @@ df = pd.read_csv('bookings.csv', encoding='UTF-8', sep=';')
 # 2. check data
 # print(df.dtypes)
 # print(df.columns)
-# 3. fix columns name
+# 3. fix columns names
 columns = {}
 for column in df.columns:
     result = column.lower().replace(' ', '_')
@@ -41,7 +41,7 @@ bad_month = df.query('is_canceled == 1') \
     .value_counts()
 # 9. check average in the columns for adults, children and babies
 # print(df[['adults', 'children', 'babies']].describe())
-# 10. create a new column with concatenation of children and children and find the most average number of kids in each type hotel
+# 10. create a new column with concatenation of children and babies and find the most average number of kids in each type hotel
 df['total_kids'] = df.children + df.babies
 # print(df.groupby('hotel').total_kids.mean())
 # 11. Churn rate - the ratio of the number of users who left to the total number of users, expressed as a percentage.
