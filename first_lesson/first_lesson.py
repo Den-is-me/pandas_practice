@@ -1,6 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv('./first_lesson/lesson_1_data.csv', encoding='windows-1251', sep=';')
+print(df)
 print(df.columns)
 # rename to correct name
 df = df.rename(columns={'Номер': 'number', 'Дата создания': 'create_date', 'Дата оплаты': 'payment_date', 'Title': 'title',

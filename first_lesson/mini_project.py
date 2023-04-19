@@ -13,6 +13,7 @@ for column in df.columns:
     columns[column] = result
 df = df.rename(columns=columns)
 print(df.columns)
+print(df)
 # 4. select the top 5 countries with the most bookings
 top_country_order = df \
       .query('is_canceled == 0') \
