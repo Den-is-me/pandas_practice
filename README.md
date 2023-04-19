@@ -48,7 +48,7 @@ Resort Hotel;0;342;2015-07-01;2015;July;27;1;0;0;0;2;0.0;0;BB;PRT;C;C;Transient;
 Resort Hotel;0;737;2015-07-01;2015;July;27;1;0;0;0;2;0.0;0;BB;PRT;C;C;Transient;Check-Out;2015-07-01
 [119390 rows x 21 columns]
 ```
-For analyze, I have done the following [steps](first_lesson/mini_project.py):
+For [analyze](first_lesson/mini_project.py), I have done the following steps:
 1. Read csv
 2. Check data
 3. Fix columns name
