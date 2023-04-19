@@ -41,7 +41,7 @@ pickup_dt,pickup_month,borough,pickups,hday,spd,vsb,temp,dewp,slp,pcp 01,pcp 06,
 ```
 Analyze of data on Taxi Trip in [the file](first_lesson/first_lesson_practice.py).
 
-- At the end of the first lesson, I used what I learned in a [mini-roject](first_lesson/mini_project.py) with [hotels booking data](first_lesson/bookings.csv):
+- At the end of the first lesson, I have made a [mini-roject](first_lesson/mini_project.py) with [hotels booking data](first_lesson/bookings.csv):
 ```csv
 Hotel;Is Canceled;Lead Time;arrival full date;Arrival Date Year;Arrival Date Month;Arrival Date Week Number;Arrival Date Day of Month;Stays in Weekend nights;Stays in week nights;stays total nights;Adults;Children;Babies;Meal;Country;Reserved Room Type;Assigned room type;customer type;Reservation Status;Reservation status_date
 Resort Hotel;0;342;2015-07-01;2015;July;27;1;0;0;0;2;0.0;0;BB;PRT;C;C;Transient;Check-Out;2015-07-01
