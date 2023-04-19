@@ -4,7 +4,7 @@ Practice with the Python Pandas Data Analysis Library.
 This repository stores the exercises and projects that I learned in the [stepik course](https://stepik.org/course/74457/info) for Pandas 
 ___
 
-- For the first lesson we have used [csv file](/first_lesson/lesson_1_data.csv) with with course sales data in this structure:
+- For the first lesson we have used [csv file](/first_lesson/lesson_1_data.csv) with information about course sales, in this structure:
 
 ``` CSV
 Номер;Дата создания;Дата оплаты;Title;Статус;Заработано;Город;Платежная система
@@ -30,6 +30,8 @@ df.agg({})
 df.sort_values()
 df.column_name.value_counts()
 df.to_csv()
+df.nunique()
+df.merge()
 ```
 Every method in practice in [this file](/first_lesson/first_lesson.py)
 
@@ -41,7 +43,7 @@ pickup_dt,pickup_month,borough,pickups,hday,spd,vsb,temp,dewp,slp,pcp 01,pcp 06,
 ```
 Analyze of data on Taxi Trip in [the file](first_lesson/first_lesson_practice.py).
 
-- At the end of the first lesson, I have made a [mini-roject](first_lesson/mini_project.py) with [hotels booking data](first_lesson/bookings.csv):
+## [Mini-roject](first_lesson/mini_project.py) with [hotels booking data](first_lesson/bookings.csv):
 ```csv
 Hotel;Is Canceled;Lead Time;arrival full date;Arrival Date Year;Arrival Date Month;Arrival Date Week Number;Arrival Date Day of Month;Stays in Weekend nights;Stays in week nights;stays total nights;Adults;Children;Babies;Meal;Country;Reserved Room Type;Assigned room type;customer type;Reservation Status;Reservation status_date
 Resort Hotel;0;342;2015-07-01;2015;July;27;1;0;0;0;2;0.0;0;BB;PRT;C;C;Transient;Check-Out;2015-07-01
@@ -53,10 +55,17 @@ For [analyze](first_lesson/mini_project.py), I have done the following steps:
 2. Check data
 3. Fix columns name
 4. Select the top 5 countries with the most bookings
-5. Find average number of nights in City Hotwl and Resort Hotel types
+5. Find average number of nights in City Hotel and Resort Hotel types
 6. Find how many rooms have changed after booking
-7. Find the most popularmonth for booking
+7. Find the most popular month for booking
 8. Find months with the most canceled booking in each year
 9. Find average number in the columns for adults, children and babies
 10. Create a new column with cancatenation of children and babies and find the most average number of kids in each type hotel
 11. Churn Rate for two groups: customers with and without children
+___
+
+- For the second lesson we have used [data](/second_lesson/lesson_3_data__1_.csv) with pasta sales imformation, in this structure:
+```csv
+"","tk","pl","dia","hs","tc","cta","id_art","id_subsubfam","id_subfam","id_fam","id_famn","id_seccion","id_subagr","id_agr","vta","uni","id_artn","art_sp","fam_sp","fam_en"
+"1242","120071109002055793",1,"2007/11/09",0.505729198455811,110000761,11000076,"21895","0101070640100","01010706401","010107064",10107064,"010107","0101","01",0.680000007152557,1,21895,"MARAVILLA        500 G Store_Brand","PASTA ALIMENTICIA SE","pasta"
+```
