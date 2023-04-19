@@ -69,3 +69,7 @@ ___
 "","tk","pl","dia","hs","tc","cta","id_art","id_subsubfam","id_subfam","id_fam","id_famn","id_seccion","id_subagr","id_agr","vta","uni","id_artn","art_sp","fam_sp","fam_en"
 "1242","120071109002055793",1,"2007/11/09",0.505729198455811,110000761,11000076,"21895","0101070640100","01010706401","010107064",10107064,"010107","0101","01",0.680000007152557,1,21895,"MARAVILLA        500 G Store_Brand","PASTA ALIMENTICIA SE","pasta"
 ```
+[*Python file with analyze*](/second_lesson/second_lesson.py) and the result:
+
+
+'''python
