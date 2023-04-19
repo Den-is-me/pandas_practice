@@ -6,7 +6,7 @@ df = pd.read_csv('bookings.csv', encoding='UTF-8', sep=';')
 # 2. check data
 # print(df.dtypes)
 # print(df.columns)
-# 3. fix columns name
+# 3. fix columns names
 columns = {}
 for column in df.columns:
     result = column.lower().replace(' ', '_')
