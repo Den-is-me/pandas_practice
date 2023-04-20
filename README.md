@@ -82,4 +82,4 @@ user_id,purchases,lovely_brand,lovely_brand_count,unique_brand,loyal_score
 2479,78381941,7,Brand_3,2,4,0.29
 985,12083322,5,Brand_1,1,5,0.2
 ```
-
+![image](/second_lesson/Figure_1.png)
