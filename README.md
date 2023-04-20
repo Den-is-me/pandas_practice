@@ -72,4 +72,14 @@ ___
 [*Python file with analyze*](/second_lesson/second_lesson.py) and the result:
 
 
-'''python
+```csv
+user_id,purchases,lovely_brand,lovely_brand_count,unique_brand,loyal_score
+2143,54915411,10,Brand_4,10,1,1.0
+1662,27647721,6,Brand_4,6,1,1.0
+1655,27415431,8,Brand_4,8,1,1.0
+...
+453,2406921,7,Brand_2,2,5,0.29
+2479,78381941,7,Brand_3,2,4,0.29
+985,12083322,5,Brand_1,1,5,0.2
+```
+
