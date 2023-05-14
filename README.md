@@ -32,6 +32,8 @@ df.column_name.value_counts()
 df.to_csv()
 df.nunique()
 df.merge()
+df.dropna(subset=[], inplace=True)
+df.fillna({}, inplace=True)
 ```
 Every method in practice in [this file](/first_lesson/first_lesson.py)
 
